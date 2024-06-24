@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell, ReferenceLine } from 'recharts';
 
-const GOOGLE_APPS_SCRIPT_URL = 'YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE';
+const GOOGLE_APPS_SCRIPT_URL = 'https://script.google.com/a/macros/sterlinglawyers.com/s/AKfycbw14XuRPASDcVECLJSHme8COz4Y0LXJV57xlS8ICuanPdFhGyS-Hom-r7rTITNVTaIQ/exec';
 
 const fetchData = async () => {
   try {
