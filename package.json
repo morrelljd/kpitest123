@@ -1,10 +1,11 @@
 {
-  "name": "kpi-dashboard",
+  "name": "kpitest123",
   "version": "1.0.0",
-  "private": true,
+  "homepage": "https://morrelljd.github.io/kpitest123",
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
     "recharts": "^2.1.9"
   },
   "devDependencies": {
@@ -18,5 +19,22 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://morrell.github.io/kpitest123"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
